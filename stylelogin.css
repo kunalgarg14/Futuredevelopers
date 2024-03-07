@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background: url("https://pics.craiyon.com/2023-06-20/7f9a15a54868484cb758093340ddb0e1.webp");
+   background-size: cover;
+   background-position: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.loginpage{
+    background: transparent;
+    border: 2px solid white;
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 0px 10px rgb(234, 234, 234);
+    width: 500px;
+    color: white;
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+.loginpage h1{
+    text-align: center;
+    height: 40px;
+}
+.User{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+    position: relative;
+}   
+.User input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 43px;
+    font-size: 18px;
+    padding: 25px 40px 25px 25px;
+}
+.User input::placeholder{
+    color: white;
+}
+.User i{
+    position: absolute;
+    font-size: 20px;
+    right: 20px;
+    top:50%;
+    transform:translateY(-50%) ;
+}
+.forget{
+    font-size: 15px;
+    margin: 15px;
+   
+}
+.forget a{
+    color: white;
+    text-decoration: none;
+}
+.forget a:hover{
+ text-decoration: underline;
+}
+.button{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 45px;
+    border-radius: 43px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.register{
+    margin-top: 20px;
+    font-size: 15px;
+  text-align: center;
+}
+.register p a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.register p a:hover{
+  text-decoration: underline;
+}
